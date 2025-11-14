@@ -8,7 +8,7 @@ def sort_even_odd_desc(arr):
     
     return genap + ganjil
 
-input_arr = [3, 2, 5, 1, 8, 9, 6]
-output = sort_even_odd_desc(input_arr)
-print(f"Input:  {input_arr}")
+input_array = [3, 2, 5, 1, 8, 9, 6]
+output = sort_even_odd_desc(input_array)
+print(f"Input:  {input_array}")
 print(f"Output: {output}")
