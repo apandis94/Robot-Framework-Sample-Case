@@ -1,0 +1,17 @@
+########  API  ########
+Positive
+robot --log API/Result/positiveApiLog.html --report API/Result/positiveApi.html API/Test_Case/positiveApi.robot
+negative
+robot --log API/Result/negativeApiLog.html --report API/Result/negativeApi.html API/Test_Case/negativeApi.robot
+
+######## Web Sauce Demo #######
+Positive
+robot --log WEB_UI/Result/positiveSauceDemoL.html --report WEB_UI/Result/positiveSauceDemo.html WEB_UI/Test_Case/positive_saucedemo.robot
+negative
+robot --log WEB_UI/Result/negativeSauceDemoL.html --report WEB_UI/Result/negativeSauceDemo.html WEB_UI/Test_Case/negative_saucedemo.robot
+
+######## App Lion Parcel #######
+Positive
+robot --log MOBILE/Result/positiveLionApps.html --report MOBILE/Result/positiveLionApp.html MOBILE/Test_Case/positive_cektarif.robot
+negative
+robot --log MOBILE/Result/negativeLionApps.html --report MOBILE/Result/negativeLionApp.html MOBILE/Test_Case/negative_cektarif.robot
