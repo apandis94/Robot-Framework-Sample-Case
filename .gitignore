@@ -1,0 +1,7 @@
+# Appium
+*.apk
+*.ipa
+
+# Image
+*.png
+*.jpg
